@@ -1,0 +1,34 @@
+.item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s;
+}
+
+.item-wrapper:hover .delete{
+    display: block;
+}
+
+.item-wrapper .check{
+    display: flex;
+    gap: 10px;
+}
+
+.check input{
+    cursor: pointer;
+}
+
+.delete{
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s;
+    color: red;
+}
+
+.delete:hover{
+    color:rgb(185, 14, 14);
+}
+
+.checkbox{
+    width: 25px;
+    outline-color: #EA5959;
+}
